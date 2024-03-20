@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5", // or any other target you prefer
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./dist"
+    // Add other compiler options as needed
+  },
+  "include": [
+    "src/**/*.ts", // Include TypeScript files from the 'app' folder and its subdirectories
+    "src/index.ts"  ],
+  "exclude": ["node_modules"]
+}
